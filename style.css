@@ -2,17 +2,34 @@ html,
 body {
     height: 100%;
     margin: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-image: url("./Images/backG.jpg");
+}
+
+#title {
+    color: aliceblue;
+    text-align: center;
+}
+
+#backgroundDiv {
+    padding: 20px;
+    background-color: cornflowerblue;
 }
 
 #mainDiv {
-    margin-top: 300px;
     width: 500px;
     height: 500px;
-    margin-left: auto;
-    margin-right: auto;
+    border-style: solid;
+    border-color: darkslategrey;
     display: flex;
     justify-content: center;
-    background-color: yellowgreen;
+    background-color: white;
 }
 
 #column {

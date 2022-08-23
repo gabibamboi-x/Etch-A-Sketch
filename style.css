@@ -4,29 +4,34 @@ body {
     margin: 0%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    background-color: snow;
 }
 
-body {
-    background-image: url("./Images/backG.jpg");
-}
-
-#title {
-    color: aliceblue;
-    text-align: center;
+h1 {
+    font-family: fantasy;
+    font-size: 75px;
+    font-weight: 900;
+    font-size-adjust: inherit;
 }
 
 #backgroundDiv {
+    background-color: darkgray;
+    padding: 50px;
+}
+
+#buttonsDiv {
+    margin-top: 50px;
     padding: 20px;
-    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #mainDiv {
-    width: 500px;
-    height: 500px;
-    border-style: solid;
-    border-color: darkslategrey;
+    width: 960px;
+    height: 960px;
+    box-shadow: 5px 10px black;
     display: flex;
     justify-content: center;
     background-color: white;
@@ -45,4 +50,22 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
+}
+
+footer {
+    margin-top: auto;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img{
+    padding-left: 10px;
+    padding-right: 10px;
 }

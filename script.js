@@ -172,9 +172,9 @@ function createGrid() {
 })}};
 
 
-// we need this function to check the current state when one of the other buttons are clicked
+// we need this function to check the current state when one of the other buttons is clicked
 // and give the user the same grid state as before pressing the button. However the state is not 
-// change as this function only checks the previous state to set the grid/color as before.
+// changed as this function only checks the previous state to set the grid/color as before.
 function checkGridState() {
     // if the state is inactive the a class containing the grid in css will be added on click
     if (gridState === 'active') {

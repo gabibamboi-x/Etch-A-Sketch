@@ -1,7 +1,7 @@
 
 # Etch-A-Sketch
 
-This webpage simulates a Etch-A-Sketch toy. It allows users to create custom grids and choose what color they would want to use.
+This webpage simulates a Etch-A-Sketch toy. It allows users to create custom grids and choose what color they would want to use and draw something simple or simply mess around and have fun.
 
 ## Technologies used
 
@@ -16,7 +16,7 @@ Live preview [here](https://gabibamboi-x.github.io/Etch-A-Sketch/)
 
 ## Lessons Learned
 
-This project is a part of The Odin Project curriculum. The main focus in this project was the manipulation of the DOM. I learned how to use javascript to create elements, set attributes and of course append them tot the DOM
+This project is a part of The Odin Project curriculum. The main focus in this project is the manipulation of the DOM. I learned how to use javascript to create elements, set attributes and of course append them to the DOM
 
 
 ## Acknowledgements

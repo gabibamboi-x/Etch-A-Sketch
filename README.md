@@ -9,9 +9,9 @@ This webpage simulates a Etch-A-Sketch toy. It allows users to create custom gri
 * HTML5
 * CSS3
 
-
 ## Demo
 
+Live preview [here](https://gabibamboi-x.github.io/Etch-A-Sketch/)
 
 
 ## Lessons Learned

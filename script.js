@@ -52,7 +52,7 @@ const allButtons = document.querySelectorAll('.btn');
 // set color to black(default)
 const defaultBlack = document.getElementById('button1');
 defaultBlack.textContent = 'Black';
-defaultBlack.style.backgroundColor = 'black'
+defaultBlack.style.backgroundColor = '#009E60'
 defaultBlack.addEventListener('click', () => {
     // reseting the color to black if the user was on rgb or greyscale
     color = 'black';

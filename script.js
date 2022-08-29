@@ -52,6 +52,7 @@ const allButtons = document.querySelectorAll('.btn');
 // set color to black(default)
 const defaultBlack = document.getElementById('button1');
 defaultBlack.textContent = 'Black';
+defaultBlack.style.backgroundColor = 'black'
 defaultBlack.addEventListener('click', () => {
     // reseting the color to black if the user was on rgb or greyscale
     color = 'black';
@@ -73,7 +74,7 @@ gridLayout.addEventListener('click', () => {
     if (grid > 100) {
         // set the grid to 100 if the user does not cooperate
         grid = 100;
-    } else if(!grid) {
+    } else if(!grid || typeof(grid) !== 'number') {
         grid = 20;
     }
     // set the default color

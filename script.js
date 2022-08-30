@@ -15,7 +15,7 @@ backdiv.appendChild(container);
 backdiv.appendChild(buttonsDiv);
 
 // create the default grid
-let grid = 20;
+let grid = 10;
 let color = 'black';
 createGrid();
 
@@ -70,13 +70,15 @@ defaultBlack.addEventListener('click', () => {
 const gridLayout = document.getElementById('button0');
 gridLayout.textContent = 'New Grid';
 gridLayout.addEventListener('click', () => {
-    grid = prompt('Layout: ');
-    if (grid > 100) {
+    let layout = prompt('Number of rows and columns 1-100: ');
+    if(!layout || isNaN(Number(layout)) || Number(layout) < 1){
+        layout = 10;
+    } else if (Number(layout) > 100) {
         // set the grid to 100 if the user does not cooperate
-        grid = 100;
-    } else if(!grid || typeof(grid) !== 'number') {
-        grid = 20;
+        layout = 100;
     }
+    grid = Number(layout);
+    console.log(typeof(grid));
     // set the default color
     color = 'black'
     // empty the div and fill it again with the amount given
